@@ -1,11 +1,13 @@
 import React from "react";
 import NavBar from "../../components/navBar";
+import TabBar from "../../components/tabBar";
 import Product from "./components/productCard";
 
 export const ProductList = () => {
   return (
     <div>
       <NavBar />
+      {/* <TabBar /> */}
       <div class="container m-2">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">

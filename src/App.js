@@ -1,14 +1,14 @@
+import React, { useState } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import RouterConfig from "./application/navigation/routerConfig";
+import "./App.css";
 
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import RouterConfig from './application/navigation/routerConfig';
-
-function App() {
+function App(props) {
   return (
     <div>
-        <Router>
-            <RouterConfig/>
-        </Router>
+      <Router>
+        <RouterConfig />
+      </Router>
     </div>
   );
 }
